@@ -1,4 +1,4 @@
-#School District Analysis
+# School District Analysis
 *Python Pandas school district analysis*
 
 ## Project Overview 
@@ -73,7 +73,7 @@ In this summary, almost all results were impacted by NaNs. Data from Thomas High
   - results for the total number of schools, the total number of students, and the total budget were not affected and stayed unchanged since the calculations with NaN values weren’t included.
   
 <p align="center">  
-<img src="Results/TheDistrictSummary.PNG" width="50%" height="50%">
+<img src="Results/TheDistrictSummary.PNG" width="60%" height="60%">
 </p>
 
 **2. The average math and reading scores for each grade level from each school.** 
@@ -81,7 +81,7 @@ In this report, only grades from Thomas High school in 9th grade was affected fo
   - Calculations in this analysis are performed separately for each class and each school; therefore, calculations weren’t affected. In the picture below are results before and after NaNs.  
   
 <p align="center">  
-<img src="Results/TheAverageMathReading.PNG" width="50%" height="50%"> 
+<img src="Results/TheAverageMathReading.PNG" width="60%" height="60%"> 
 </p>
 
 **3. The School Summary.** 
@@ -93,7 +93,7 @@ In this summary, only results from Thomas High School were impacted by NaNs, oth
 (please refer to DataFrame below for numerical results.)
 
 <p align="center">
-<img src="Results/TheSchoolSummary.PNG" width="50%" height="50%">
+<img src="Results/TheSchoolSummary.PNG" width="60%" height="60%">
 </p>
 - Other school results remained unchanged. 
 (please see the full report here: [The School Summary Before NaNs](Results/SchoolSummaryAllBefore.PNG), [The School Summary After NaNs](Results/SchoolSummaryAllAfter.PNG))
@@ -116,7 +116,7 @@ In this summary, only results from Thomas High School were impacted by NaNs, oth
 (please refer to DataFrame below for numerical results.)
 
 <p align="center">  
-<img src="Results/TheSize.PNG" width="50%" height="50%"> 
+<img src="Results/TheSize.PNG" width="60%" height="60%"> 
 </p>
 
 **7. The scores by school type.**
@@ -125,7 +125,7 @@ In this summary, only results from Thomas High School were impacted by NaNs, oth
 (please refer to DataFrame below for numerical results.)
 
 <p align="center">  
-<img src="Results/TheType.PNG" width="50%" height="50%"> 
+<img src="Results/TheType.PNG" width="60%" height="60%"> 
 </p>
 
 ### Overview of the methods and code
@@ -145,8 +145,12 @@ Since Thomas High School math and reading grades for 9th graders were replaced w
 Module 4: PyCitySchools: Handle Missing Data: https://courses.bootcampspot.com/courses/200/pages/4-dot-5-2-handle-missing-data?module_item_id=57674, Web 6 Aug 2020.
 
 ## Other useful articles that have helped complete this assignment.
-(1)[Exploratory Data Analysis - Wiki](https://en.wikipedia.org/wiki/Exploratory_data_analysis)
-(2)[Exploratory Data Analysis](https://medium.com/datadriveninvestor/introduction-to-exploratory-data-analysis-682eb64063ff)
-(3)[Pandas User Guide](https://pandas.pydata.org/docs/user_guide/index.html#user-guide)
-(4) [export CSV from Pandas](https://towardsdatascience.com/how-to-export-pandas-dataframe-to-csv-2038e43d9c03
-(5) [determing your current)environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+-[Exploratory Data Analysis - Wiki](https://en.wikipedia.org/wiki/Exploratory_data_analysis)
+
+-[Exploratory Data Analysis](https://medium.com/datadriveninvestor/introduction-to-exploratory-data-analysis-682eb64063ff)
+
+-[Pandas User Guide](https://pandas.pydata.org/docs/user_guide/index.html#user-guide)
+
+-[export CSV from Pandas](https://towardsdatascience.com/how-to-export-pandas-dataframe-to-csv-2038e43d9c03)
+
+-[determing your current environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
