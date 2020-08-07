@@ -37,13 +37,13 @@ The data is gathered in two different CSV files (school data and student data). 
   - [students_complete.csv](Resources/students_complete.csv)
 
 - Software: 
-  - Jupyter Notebook 6.0.3, <img src="Graphics/JupyterNotebookLogo.PNG" width="10%" height="10%">
+  - Jupyter Notebook 6.0.3 <img src="Graphics/JupyterNotebookLogo.PNG" width="4%" height="4%">
 
 - Environment: 
-  - Python 3.7., <img src="Graphics/PythonLogo.PNG" width="10%" height="10%">
+  - Python 3.7. <img src="Graphics/PythonLogo.PNG" width="4%" height="4%">
 - Dependencies:
-  - Pandas Library 1.0.5. <img src="Graphics/PandasLogo.PNG" width="3%" height="3%">
-  - NumPy Library 1.17.0 <img src="Graphics/NumPyLogo.PNG" width="3%" height="3%">
+  - Pandas Library 1.0.5 <img src="Graphics/PandasLogo.PNG" width="6%" height="6%">
+  - NumPy Library 1.17.0 <img src="Graphics/NumPyLogo.PNG" width="6%" height="6%">
 
 ## Results
 
@@ -144,13 +144,13 @@ Since Thomas High School math and reading grades for 9th graders were replaced w
 ## References 
 Module 4: PyCitySchools: Handle Missing Data: https://courses.bootcampspot.com/courses/200/pages/4-dot-5-2-handle-missing-data?module_item_id=57674, Web 6 Aug 2020.
 
-## Other useful articles that have helped complete this assignment.
--[Exploratory Data Analysis - Wiki](https://en.wikipedia.org/wiki/Exploratory_data_analysis)
+## Other useful articles
+- [Exploratory Data Analysis - Wiki](https://en.wikipedia.org/wiki/Exploratory_data_analysis)
 
--[Exploratory Data Analysis](https://medium.com/datadriveninvestor/introduction-to-exploratory-data-analysis-682eb64063ff)
+- [Exploratory Data Analysis](https://medium.com/datadriveninvestor/introduction-to-exploratory-data-analysis-682eb64063ff)
 
--[Pandas User Guide](https://pandas.pydata.org/docs/user_guide/index.html#user-guide)
+- [Pandas User Guide](https://pandas.pydata.org/docs/user_guide/index.html#user-guide)
 
--[export CSV from Pandas](https://towardsdatascience.com/how-to-export-pandas-dataframe-to-csv-2038e43d9c03)
+- [export CSV from Pandas](https://towardsdatascience.com/how-to-export-pandas-dataframe-to-csv-2038e43d9c03)
 
--[determing your current environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+- [determing your current environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
