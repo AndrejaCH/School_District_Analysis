@@ -37,10 +37,10 @@ The data is gathered in two different CSV files (school data and student data). 
   - [students_complete.csv](Resources/students_complete.csv)
 
 - Software: 
-  - Jupyter Notebook 6.0.3 <img src="Graphics/JupyterNotebookLogo.PNG" width="4%" height="4%">
+  - Jupyter Notebook 6.0.3 <img src="Graphics/JupyterNotebookLogo.PNG" width="3%" height="3%">
 
 - Environment: 
-  - Python 3.7. <img src="Graphics/PythonLogo.PNG" width="4%" height="4%">
+  - Python 3.7. <img src="Graphics/PythonLogo.PNG" width="3%" height="3%">
 - Dependencies:
   - Pandas Library 1.0.5 <img src="Graphics/PandasLogo.PNG" width="6%" height="6%">
   - NumPy Library 1.17.0 <img src="Graphics/NumPyLogo.PNG" width="6%" height="6%">
@@ -101,7 +101,7 @@ In this summary, only results from Thomas High School were impacted by NaNs, oth
 **4. The top 5 and bottom 5 performing schools, based on the overall passing rate.**
   - The overall rating for Thomas High School changed from 91% to 65% and the school rank dropped from 2nd place to 8th place after changing scores with NaNs.
 
-**5. The scores by school spending per student.**
+**5. School performance based on the budget per student.**
   - From the Data Frame above (The School Summary) we can see that Thomas High school falls into a category *spending range per students $630-$644*. 
   - Calculations for categories or bins are made for bins specifically;  therefore, scores in this summary are affected only within a category with NaNs. 
 (please refer to DataFrame below for numerical results.)
@@ -110,7 +110,7 @@ In this summary, only results from Thomas High School were impacted by NaNs, oth
 <img src="Results/PerCapita.PNG" width="50%" height="50%"> 
 </p>
 
-**6.The scores by school size.**
+**6. School performance based on the school size.**
   - From the Data Frame above (The School Summary) we can see that Thomas High school falls into a category *medium size schoo (1000 - 2000)*. 
   - Calculations for categories are made for those bins specifically;  therefore, scores in this summary are affected only within a category with NaNs. 
 (please refer to DataFrame below for numerical results.)
@@ -119,7 +119,7 @@ In this summary, only results from Thomas High School were impacted by NaNs, oth
 <img src="Results/TheSize.PNG" width="60%" height="60%"> 
 </p>
 
-**7. The scores by school type.**
+**7. School performance based on the type of school.**
   - From the Data Frame above (The School Summary) we can see that Thomas High school falls into a category *Charter*. 
   - Calculations for categories are made for those bins specifically;  therefore, scores in this summary are affected only within a category with NaNs. 
 (please refer to DataFrame below for numerical results.)
