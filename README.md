@@ -37,13 +37,13 @@ The data is gathered in two different CSV files (school data and student data). 
   - [students_complete.csv](Resources/students_complete.csv)
 
 - Software: 
-  - Jupyter Notebook 6.0.3, <img src="Graphics/JupyterNotebookLogo.PNG" width="10%" height="10%">
+  - Jupyter Notebook 6.0.3 <img src="Graphics/JupyterNotebookLogo.PNG" width="3%" height="3%">
 
 - Environment: 
-  - Python 3.7., <img src="Graphics/PythonLogo.PNG" width="10%" height="10%">
+  - Python 3.7. <img src="Graphics/PythonLogo.PNG" width="3%" height="3%">
 - Dependencies:
-  - Pandas Library 1.0.5. <img src="Graphics/PandasLogo.PNG" width="3%" height="3%">
-  - NumPy Library 1.17.0 <img src="Graphics/NumPyLogo.PNG" width="3%" height="3%">
+  - Pandas Library 1.0.5 <img src="Graphics/PandasLogo.PNG" width="6%" height="6%">
+  - NumPy Library 1.17.0 <img src="Graphics/NumPyLogo.PNG" width="6%" height="6%">
 
 ## Results
 
@@ -55,8 +55,9 @@ It is important to know the properties of those replacements for values in order
 
 Results below (see the pictures “After NaNs”) reflects how NaNs work in the data set. NaNs are not included in the sums or the average calculations. Another point to pay attention is when we need to count total rows, for example, *“student names”*. We could take any column and count the rows, yet it is a good practice to take the row that has all the information and inspect data before calculations.
 
+
 <p align="center"> 
-<img src="Results/TheInfo.PNG" width="30%" height="30%"> 
+<img src="Results/TheInfo.PNG" width="30%" height="30%">  
 </p>
 
 <p align="center"> 
@@ -73,15 +74,19 @@ In this summary, almost all results were impacted by NaNs. Data from Thomas High
   - results for the total number of schools, the total number of students, and the total budget were not affected and stayed unchanged since the calculations with NaN values weren’t included.
   
 <p align="center">  
-<img src="Results/TheDistrictSummary.PNG" width="60%" height="60%">
+<kbd>    
+<img src="Results/TheDistrictSummary.PNG" width="80%" height="80%">
+</kbd>
 </p>
 
 **2. The average math and reading scores for each grade level from each school.** 
 In this report, only grades from Thomas High school in 9th grade was affected for math and reading.
   - Calculations in this analysis are performed separately for each class and each school; therefore, calculations weren’t affected. In the picture below are results before and after NaNs.  
   
-<p align="center">  
-<img src="Results/TheAverageMathReading.PNG" width="60%" height="60%"> 
+<p align="center"> 
+<kbd>    
+<img src="Results/TheAverageMathReading.PNG" width="70%" height="70%"> 
+<kbd>
 </p>
 
 **3. The School Summary.** 
@@ -93,7 +98,9 @@ In this summary, only results from Thomas High School were impacted by NaNs, oth
 (please refer to DataFrame below for numerical results.)
 
 <p align="center">
-<img src="Results/TheSchoolSummary.PNG" width="60%" height="60%">
+<kbd>    
+<img src="Results/TheSchoolSummary.PNG" width="80%" height="80%">
+</kbd>
 </p>
 - Other school results remained unchanged. 
 (please see the full report here: [The School Summary Before NaNs](Results/SchoolSummaryAllBefore.PNG), [The School Summary After NaNs](Results/SchoolSummaryAllAfter.PNG))
@@ -101,31 +108,37 @@ In this summary, only results from Thomas High School were impacted by NaNs, oth
 **4. The top 5 and bottom 5 performing schools, based on the overall passing rate.**
   - The overall rating for Thomas High School changed from 91% to 65% and the school rank dropped from 2nd place to 8th place after changing scores with NaNs.
 
-**5. The scores by school spending per student.**
+**5. School performance based on the budget per student.**
   - From the Data Frame above (The School Summary) we can see that Thomas High school falls into a category *spending range per students $630-$644*. 
   - Calculations for categories or bins are made for bins specifically;  therefore, scores in this summary are affected only within a category with NaNs. 
 (please refer to DataFrame below for numerical results.)
 
-<p align="center">  
-<img src="Results/PerCapita.PNG" width="50%" height="50%"> 
+<p align="center">
+<kbd>
+<img src="Results/PerCapita.PNG" width="90%" height="90%"> 
+</kbd>
 </p>
 
-**6.The scores by school size.**
+**6. School performance based on the school size.**
   - From the Data Frame above (The School Summary) we can see that Thomas High school falls into a category *medium size schoo (1000 - 2000)*. 
   - Calculations for categories are made for those bins specifically;  therefore, scores in this summary are affected only within a category with NaNs. 
 (please refer to DataFrame below for numerical results.)
 
-<p align="center">  
-<img src="Results/TheSize.PNG" width="60%" height="60%"> 
+<p align="center">
+<kbd>   
+<img src="Results/TheSize.PNG" width="90%" height="90%"> 
+</kbd>
 </p>
 
-**7. The scores by school type.**
+**7. School performance based on the type of school.**
   - From the Data Frame above (The School Summary) we can see that Thomas High school falls into a category *Charter*. 
   - Calculations for categories are made for those bins specifically;  therefore, scores in this summary are affected only within a category with NaNs. 
 (please refer to DataFrame below for numerical results.)
 
 <p align="center">  
-<img src="Results/TheType.PNG" width="60%" height="60%"> 
+<kbd>
+<img src="Results/TheType.PNG" width="90%" height="90%"> 
+</kbd>
 </p>
 
 ### Overview of the methods and code
@@ -144,13 +157,13 @@ Since Thomas High School math and reading grades for 9th graders were replaced w
 ## References 
 Module 4: PyCitySchools: Handle Missing Data: https://courses.bootcampspot.com/courses/200/pages/4-dot-5-2-handle-missing-data?module_item_id=57674, Web 6 Aug 2020.
 
-## Other useful articles that have helped complete this assignment.
--[Exploratory Data Analysis - Wiki](https://en.wikipedia.org/wiki/Exploratory_data_analysis)
+## Other useful articles
+- [Exploratory Data Analysis - Wiki](https://en.wikipedia.org/wiki/Exploratory_data_analysis)
 
--[Exploratory Data Analysis](https://medium.com/datadriveninvestor/introduction-to-exploratory-data-analysis-682eb64063ff)
+- [Exploratory Data Analysis](https://medium.com/datadriveninvestor/introduction-to-exploratory-data-analysis-682eb64063ff)
 
--[Pandas User Guide](https://pandas.pydata.org/docs/user_guide/index.html#user-guide)
+- [Pandas User Guide](https://pandas.pydata.org/docs/user_guide/index.html#user-guide)
 
--[export CSV from Pandas](https://towardsdatascience.com/how-to-export-pandas-dataframe-to-csv-2038e43d9c03)
+- [export CSV from Pandas](https://towardsdatascience.com/how-to-export-pandas-dataframe-to-csv-2038e43d9c03)
 
--[determing your current environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+- [determing your current environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
