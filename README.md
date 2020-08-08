@@ -55,8 +55,9 @@ It is important to know the properties of those replacements for values in order
 
 Results below (see the pictures “After NaNs”) reflects how NaNs work in the data set. NaNs are not included in the sums or the average calculations. Another point to pay attention is when we need to count total rows, for example, *“student names”*. We could take any column and count the rows, yet it is a good practice to take the row that has all the information and inspect data before calculations.
 
+
 <p align="center"> 
-<img src="Results/TheInfo.PNG" width="30%" height="30%"> 
+<img src="Results/TheInfo.PNG" width="30%" height="30%">  
 </p>
 
 <p align="center"> 
@@ -73,15 +74,19 @@ In this summary, almost all results were impacted by NaNs. Data from Thomas High
   - results for the total number of schools, the total number of students, and the total budget were not affected and stayed unchanged since the calculations with NaN values weren’t included.
   
 <p align="center">  
-<img src="Results/TheDistrictSummary.PNG" width="60%" height="60%">
+<kbd>    
+<img src="Results/TheDistrictSummary.PNG" width="80%" height="80%">
+</kbd>
 </p>
 
 **2. The average math and reading scores for each grade level from each school.** 
 In this report, only grades from Thomas High school in 9th grade was affected for math and reading.
   - Calculations in this analysis are performed separately for each class and each school; therefore, calculations weren’t affected. In the picture below are results before and after NaNs.  
   
-<p align="center">  
-<img src="Results/TheAverageMathReading.PNG" width="60%" height="60%"> 
+<p align="center"> 
+<kbd>    
+<img src="Results/TheAverageMathReading.PNG" width="70%" height="70%"> 
+<kbd>
 </p>
 
 **3. The School Summary.** 
@@ -93,7 +98,9 @@ In this summary, only results from Thomas High School were impacted by NaNs, oth
 (please refer to DataFrame below for numerical results.)
 
 <p align="center">
-<img src="Results/TheSchoolSummary.PNG" width="60%" height="60%">
+<kbd>    
+<img src="Results/TheSchoolSummary.PNG" width="80%" height="80%">
+</kbd>
 </p>
 - Other school results remained unchanged. 
 (please see the full report here: [The School Summary Before NaNs](Results/SchoolSummaryAllBefore.PNG), [The School Summary After NaNs](Results/SchoolSummaryAllAfter.PNG))
@@ -106,8 +113,10 @@ In this summary, only results from Thomas High School were impacted by NaNs, oth
   - Calculations for categories or bins are made for bins specifically;  therefore, scores in this summary are affected only within a category with NaNs. 
 (please refer to DataFrame below for numerical results.)
 
-<p align="center">  
-<img src="Results/PerCapita.PNG" width="50%" height="50%"> 
+<p align="center">
+<kbd>
+<img src="Results/PerCapita.PNG" width="90%" height="90%"> 
+</kbd>
 </p>
 
 **6. School performance based on the school size.**
@@ -115,8 +124,10 @@ In this summary, only results from Thomas High School were impacted by NaNs, oth
   - Calculations for categories are made for those bins specifically;  therefore, scores in this summary are affected only within a category with NaNs. 
 (please refer to DataFrame below for numerical results.)
 
-<p align="center">  
-<img src="Results/TheSize.PNG" width="60%" height="60%"> 
+<p align="center">
+<kbd>   
+<img src="Results/TheSize.PNG" width="90%" height="90%"> 
+</kbd>
 </p>
 
 **7. School performance based on the type of school.**
@@ -125,7 +136,9 @@ In this summary, only results from Thomas High School were impacted by NaNs, oth
 (please refer to DataFrame below for numerical results.)
 
 <p align="center">  
-<img src="Results/TheType.PNG" width="60%" height="60%"> 
+<kbd>
+<img src="Results/TheType.PNG" width="90%" height="90%"> 
+</kbd>
 </p>
 
 ### Overview of the methods and code
