@@ -103,7 +103,11 @@ In this summary, only results from Thomas High School were impacted by NaNs, oth
 </kbd>
 </p>
 - Other school results remained unchanged. 
-(please see the full report here: [The School Summary Before NaNs](Results/SchoolSummaryAllBefore.PNG), [The School Summary After NaNs](Results/SchoolSummaryAllAfter.PNG))
+(please see the full report here: 
+
+[The School Summary Before NaNs](Results/TheSchoolSummaryBeforeNaNs.pdf)
+
+[The School Summary After NaNs](Results/TheSchoolSummaryAfterNaNs.pdf)
 
 **4. The top 5 and bottom 5 performing schools, based on the overall passing rate.**
   - The overall rating for Thomas High School changed from 91% to 65% and the school rank dropped from 2nd place to 8th place after changing scores with NaNs.
