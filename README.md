@@ -34,7 +34,7 @@ The data is gathered in two different CSV files (school data and student data). 
 
 Data Source |Software|Environment|Dependencies 
 ---|---|---|---
- [schools_complete.csv](Resources/schools_complete.csv) <br>[students_complete.csv](Resources/students_complete.csv) |  Jupyter Notebook 6.0.3  <img src="Graphics/JupyterNotebookLogo.PNG" width="15%" height="15%"> | Python 3.7. <img src="Graphics/PythonLogo.PNG" width="8%" height="8%"> | Pandas Library 1.0.5  <img src="Graphics/PandasLogo.PNG" width="6%" height="6%"> <br> NumPy Library 1.17.0 <img src="Graphics/NumPyLogo.PNG" width="6%" height="6%">
+ <br> [schools_complete.csv](Resources/schools_complete.csv)  <br>[students_complete.csv](Resources/students_complete.csv) |  Jupyter Notebook 6.0.3<img src="Graphics/JupyterNotebookLogo.PNG" width="15%" height="15%"> | Python 3.7. &nbsp; &nbsp;  <img src="Graphics/PythonLogo.PNG" width="10%" height="10%"> | Pandas Library 1.0.5  &nbsp; &nbsp; <img src="Graphics/PandasLogo.PNG" width="15%" height="15%"> <br> NumPy Library 1.17.0 &nbsp; &nbsp; <img src="Graphics/NumPyLogo.PNG" width="20%" height="20%">
 
   
 - Data Source: 
