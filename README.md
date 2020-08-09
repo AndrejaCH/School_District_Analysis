@@ -6,14 +6,14 @@
 
 The purpose of this analysis is to aggregate the students’ and schools’ datasets and analyze data on students’ standardized math and reading scores from various schools in the selected districts. To showcase trends in school performance, the analysis focuses on the following.
 
-1. The district summary, which includes the total number of students, the total number of schools, total budget, total math and reading averages, and total math, reading, and overall passing percentages.
-2. The school summary, which includes, school type, number of students, school budget, average math and reading scores and math, reading, and overall passing percentages for each school.
-3. The top 5 and bottom 5 performing schools, based on the overall passing rate.
-4. The average math and reading scores for each grade level (9th, 10th, 11th and 12th) from each school.
+1. **The district summary**, which includes the total number of students, the total number of schools, total budget, math and reading averages, and math, reading, and overall passing percentages.
+2. **The school summary**, which includes, school type, number of students, school budget, average math and reading scores and math, reading, and overall passing percentages for each school.
+3. The **top 5** and **bottom 5 performing schools**, based on the overall passing rate.
+4. The **average math and reading scores** for each grade level (9th, 10th, 11th and 12th) from each school.
 5. The math and reading scores grouped by
-    - spending ranges per students,
-    - school size and,
-    - school type.
+    - **spending ranges per students**,
+    - **school size** and,
+    - **school type**.
 
 The analysis will assist the school board and superintendent in making decisions regarding the school budgets and priorities.
 
@@ -22,12 +22,12 @@ The analysis will assist the school board and superintendent in making decisions
 The data is gathered in two different CSV files (school data and student data). This is raw data that has to be transformed in order to perform analysis and convey information. Those steps are performed in the so-called **data-wrangling** or **data-munging** process and include the following.
 
   - Load and read raw data.
-  - Inspect data (finding anomalies, finding missing values, declare data types, etc)
-  - Clean date (leave, replace or delete rows with missing values)
+  - Inspect data (finding anomalies, finding missing values, declare data types, etc).
+  - Cleaning data (leave, replace or delete rows with missing values).
   - Merge datasets.
   - Perform calculations and create tables.
-  - Change layout and structure (organized tables are key to represent data in a way that is easy to understand and easy to detect patterns and correlation).
-  - Sorting and grouping data (it is in our power - data analysts - to use analytical mind and represent data in a new way. Grouping data in well-defined categories can make a big difference in story-telling of the data).
+  - Change layout and structure (organized tables are key to represent data in a way that is easy to understand and easy to detect patterns and correlations).
+  - Sorting and grouping data (it is in data analysts power to use analytical mind and represent data in a new way. Grouping data in well-defined categories can make a big difference in story-telling of the data).
 
 
 ## Resources
@@ -46,37 +46,37 @@ The data is gathered in two different CSV files (school data and student data). 
   - NumPy Library 1.17.0 <img src="Graphics/NumPyLogo.PNG" width="6%" height="6%">
 
 ## Results
+### Foreword
 
-There was evidence of academic dishonesty for math and reading scores in Thomas High School for ninth graders, therefore the school board wants to uphold state-testing standards for this school only. The grades for math and reading in Thomas High School, 9th grade will be replaced with NaNs while keeping the rest of the data intact. In the analysis below are results and comparison from both analyses before and after replacements the grades with NaNs.
+There was an evidence of academic dishonesty for math and reading scores in **Thomas High School for ninth graders**; therefore, the school board wants to uphold state-testing standards for this school only. The grades for math and reading in Thomas High School, 9th grade will be **replaced with NaNs** while keeping the rest of the data intact. In the analysis below is the comparison from both analyses before and after the replacement the grades with NaNs.
 
-:exclamation: **Replacing the missing values with NaN.** NaN stands for “not a number”. In performing calculations, unlike 0 (zero) NaNs are not considered in the sum, or the averages; therefore, missing values won’t have an impact. But we need to be careful if we multiply or divide row with NaNs. The answer, in this case, will be NaN(1).
+:exclamation: **Replacing the missing values with NaNs.**
 
-It is important to know the properties of those replacements for values in order to make the right decision about handling missing values and other anomalies in the data sets. 
+NaN stands for “not a number”. In performing calculations, unlike 0 (zero) NaNs are not considered in the sum, or the averages; therefore, missing values don't have an impact. Yet we need to be careful if we multiply or divide rows with NaNs, because the answer, in this case, will be NaN(1). It is important to know those properties in order to make the right decision about handling missing values and other anomalies in the data sets. 
 
-Results below (see the pictures “After NaNs”) reflects how NaNs work in the data set. NaNs are not included in the sums or the average calculations. Another point to pay attention is when we need to count total rows, for example, *“student names”*. We could take any column and count the rows, yet it is a good practice to take the row that has all the information and inspect data before calculations.
+**info() function** - in the picture below - cohesively displays information about the data set. From the column reading_score and math_score we can see the NaN values weren’t included in the calculations. This is another point to pay attention. When we need to count total rows, for example, *“student names”*, We could take any column and count the rows, yet it is a good practice to take the row that has all the information and inspect data before calculations.
 
 
 <p align="center"> 
 <img src="Results/TheInfo.PNG" width="30%" height="30%">  
 </p>
 
-<p align="center"> 
-*info() function cohesively displays information about the data set* From the column reading_score and math_score we can see the NaN values weren’t included in the calculations. 
-</p>
-
+## Analysis
 **1. The district summary.** 
 In this summary, almost all results were impacted by NaNs. Data from Thomas High School 9th grade were included in the following calculations:
-  - average math and reading score
-  - passing math and reading percentage
-  - overall passing percentage 
-(please refer to DataFrame below for numerical results.)
-
-  - results for the total number of schools, the total number of students, and the total budget were not affected and stayed unchanged since the calculations with NaN values weren’t included.
+   - average math and reading score (dropped from 79.0 and 81.9 to 78.9 to 81.9, respectively),
+   - passing math and reading percentage (dropped from 75 and 86 to 74 and 85 respectively),
+   - overall passing percentage (dropped from 65 to 64).
+   - results for the total number of schools, the total number of students, and the total budget were not affected and stayed unchanged since the calculations with NaN values         weren’t included.
   
 <p align="center">  
 <kbd>    
 <img src="Results/TheDistrictSummary.PNG" width="80%" height="80%">
 </kbd>
+</p>
+
+<p align="center">
+Data Frame from analysis The district summary before and after replacement grades with NaNs.
 </p>
 
 **2. The average math and reading scores for each grade level from each school.** 
