@@ -166,11 +166,9 @@ Data Frame from analysis School performance based on the school size before and 
 
 <p align="center">
 Data Frame from analysis School performance based on the type of school. before and after replacement grades with NaNs. 
-</p
-
+</p>
 
 ### Overview of the methods and code
-
 Python’s Library **Pandas** are very flexible and easy to manipulate. There are a lot of information about Pandas on the web for example, [Pandas User Guide - official documentation](https://pandas.pydata.org/docs/user_guide/index.html#user-guide) where we can find how specifinc commands works. Yet on the link below, I have included Pandas commands that I used in this analysis.
 
 [Pandas Cheat Sheet](Results/PandasCheatSheet.pdf)
