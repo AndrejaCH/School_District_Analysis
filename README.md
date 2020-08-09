@@ -23,7 +23,7 @@ The data is gathered in two different CSV files (school data and student data). 
 
   - Load and read raw data.
   - Inspect data (finding anomalies, finding missing values, declare data types, etc)
-  - Clean date (leave, replace or delete the row with missing values)
+  - Clean date (leave, replace or delete rows with missing values)
   - Merge datasets.
   - Perform calculations and create tables.
   - Change layout and structure (organized tables are key to represent data in a way that is easy to understand and easy to detect patterns and correlation).
@@ -32,11 +32,18 @@ The data is gathered in two different CSV files (school data and student data). 
 
 ## Resources
 
-Data Source |Software|Environment|Dependencies 
----|---|---|---
-[schools_complete.csv](Resources/schools_complete.csv)  |  Jupyter Notebook 6.0.3 | Python 3.7. &nbsp; &nbsp;   | Pandas Library 1.0.5    <br> NumPy Library 1.17.0 &nbsp; &nbsp; 
-[students_complete.csv](Resources/students_complete.csv) | <img src="Graphics/JupyterNotebookLogo.PNG" width="15%" height="15%">  |<img src="Graphics/PythonLogo.PNG" width="10%" height="10%"> | <img src="Graphics/NumPyLogo.PNG" width="20%" height="20%"> &nbsp; &nbsp; <img src="Graphics/PandasLogo.PNG" width="15%" height="15%">
+- Data Source: 
+  - [schools_complete.csv](Resources/schools_complete.csv)
+  - [students_complete.csv](Resources/students_complete.csv)
 
+- Software: 
+  - Jupyter Notebook 6.0.3 <img src="Graphics/JupyterNotebookLogo.PNG" width="3%" height="3%">
+
+- Environment: 
+  - Python 3.7. <img src="Graphics/PythonLogo.PNG" width="3%" height="3%">
+- Dependencies:
+  - Pandas Library 1.0.5 <img src="Graphics/PandasLogo.PNG" width="6%" height="6%">
+  - NumPy Library 1.17.0 <img src="Graphics/NumPyLogo.PNG" width="6%" height="6%">
 
 ## Results
 
