@@ -61,13 +61,13 @@ NaN stands for “not a number”. In performing calculations, unlike 0 (zero) N
 <img src="Results/TheInfo.PNG" width="30%" height="30%">  
 </p>
 
-## Analysis
-**1. The district summary.** 
-In this summary, almost all results were impacted by NaNs. Data from Thomas High School 9th grade were included in the following calculations:
-   - average math and reading score (dropped from 79.0 and 81.9 to 78.9 to 81.9, respectively),
-   - passing math and reading percentage (dropped from 75 and 86 to 74 and 85 respectively),
-   - overall passing percentage (dropped from 65 to 64).
-   - results for the total number of schools, the total number of students, and the total budget were not affected and stayed unchanged since the calculations with NaN values         weren’t included.
+### Analysis
+**1. The district summary.**
+   - In this summary, almost all results were impacted by NaNs. Data from Thomas High School 9th grade were included in the following calculations.
+   - Average math and reading score (dropped from 79.0 and 81.9 to 78.9 to 81.9, respectively).
+   - Passing math and reading percentage (dropped from 75 and 86 to 74 and 85 respectively).
+   - Overall passing percentage (dropped from 65 to 64).
+   - Results for the total number of schools, the total number of students, and the total budget were not affected and stayed unchanged since the calculations with NaN values         weren’t included.
   
 <p align="center">  
 <kbd>    
@@ -79,54 +79,66 @@ In this summary, almost all results were impacted by NaNs. Data from Thomas High
 Data Frame from analysis The district summary before and after replacement grades with NaNs.
 </p>
 
-**2. The average math and reading scores for each grade level from each school.** 
-In this report, only grades from Thomas High school in 9th grade was affected for math and reading.
-  - Calculations in this analysis are performed separately for each class and each school; therefore, calculations weren’t affected. In the picture below are results before and after NaNs.  
-  
+
+**2. The average math and reading scores for each grade level from each school.**
+    - In this report, only grades from Thomas High school in 9th grade was affected for math and reading.
+    - Calculations in this analysis are performed separately for each class and each school; therefore, other graders and schools weren’t affected.
+    
 <p align="center"> 
 <kbd>    
 <img src="Results/TheAverageMathReading.PNG" width="70%" height="70%"> 
 <kbd>
 </p>
+    
+<p align="center">
+Data Frame from analysis The average math and reading scores for each grade level from each school before and after replacement grades with NaNs. 
+</p>
 
 **3. The School Summary.** 
-In this summary, only results from Thomas High School were impacted by NaNs, other school results remained unchanged. Result impacted by NaNs:
-  - average math and reading score
-  - passing math and reading percentage
-  - overall passing percentage 
-  
-(please refer to DataFrame below for numerical results.)
 
+   - In this summary, only results from Thomas High School were affected by NaNs, other schools' results remained unchanged.
+   - Average math and reading scores remained unchanged.
+   - Passing math and reading percentage (dropped from 93 and 97 to 67 to 70 respecitvely).
+   - Overall passing percentage (dropped from 91 to 65).
+  
 <p align="center">
 <kbd>    
 <img src="Results/TheSchoolSummary.PNG" width="80%" height="80%">
 </kbd>
 </p>
-- Other school results remained unchanged. 
-(please see the full report here: 
 
-[The School Summary Before NaNs](Results/TheSchoolSummaryBeforeNaNs.pdf)
+<p align="center">
+Data Frame from analysis The School Summary for Thomas High School before and after replacement grades with NaNs. 
+</p>
 
-[The School Summary After NaNs](Results/TheSchoolSummaryAfterNaNs.pdf)
+   - Other schools' results remained unchanged. In the link we can see full report from all schools. [The School Summary Before NaNs](Results/TheSchoolSummaryBeforeNaNs.pdf) and [The School Summary After NaNs](Results/TheSchoolSummaryAfterNaNs.pdf).
 
 **4. The top 5 and bottom 5 performing schools, based on the overall passing rate.**
-  - The overall rating for Thomas High School changed from 91% to 65% and the school rank dropped from 2nd place to 8th place after changing scores with NaNs.
+  - The overall rating for Thomas High School changed from 91% to 65% so the school rank dropped from 2nd place to 8th place after changing scores with NaNs.
 
 **5. School performance based on the budget per student.**
   - From the Data Frame above (The School Summary) we can see that Thomas High school falls into a category *spending range per students $630-$644*. 
-  - Calculations for categories or bins are made for bins specifically;  therefore, scores in this summary are affected only within a category with NaNs. 
-(please refer to DataFrame below for numerical results.)
-
+  - Calculations are made separately for those categories; therefore, scores in this summary are affected only within a category with NaNs. 
+  - Average math and reading scores remained unchanged.
+  - Passing math and reading percentage (dropped from 73 and 84 to 67 to 77 respecitvely).
+  - Overall passing percentage (dropped from 63 to 56).
+  
 <p align="center">
 <kbd>
 <img src="Results/PerCapita.PNG" width="90%" height="90%"> 
 </kbd>
 </p>
 
+<p align="center">
+Data Frame from analysis School performance based on the budget per student before and after replacement grades with NaNs. 
+</p
+
 **6. School performance based on the school size.**
-  - From the Data Frame above (The School Summary) we can see that Thomas High school falls into a category *medium size schoo (1000 - 2000)*. 
-  - Calculations for categories are made for those bins specifically;  therefore, scores in this summary are affected only within a category with NaNs. 
-(please refer to DataFrame below for numerical results.)
+  - From the Data Frame above (The School Summary) we can see that Thomas High school falls into a category *medium size school (1000 - 2000 students)*. 
+  - Calculations are made separately for those categories; therefore, scores in this summary are affected only within a category with NaNs. 
+  - Average math and reading scores remained unchanged.
+  - Passing math and reading percentage (dropped from 94 and 97 to 88 to 91 respecitvely).
+  - Overall passing percentage (dropped from 91 to 85).
 
 <p align="center">
 <kbd>   
@@ -134,10 +146,16 @@ In this summary, only results from Thomas High School were impacted by NaNs, oth
 </kbd>
 </p>
 
+<p align="center">
+Data Frame from analysis School performance based on the school size before and after replacement grades with NaNs. 
+</p
+
 **7. School performance based on the type of school.**
-  - From the Data Frame above (The School Summary) we can see that Thomas High school falls into a category *Charter*. 
-  - Calculations for categories are made for those bins specifically;  therefore, scores in this summary are affected only within a category with NaNs. 
-(please refer to DataFrame below for numerical results.)
+  - From the Data Frame above (The School Summary) we can see that Thomas High school falls into a category *Charter* for school type. 
+  - Calculations are made separately for those categories; therefore, scores in this summary are affected only within a category with NaNs. 
+  - Average math and reading scores remained unchanged.
+  - Passing math and reading percentage (dropped from 94 and 97 to 90 to 93 respecitvely).
+  - Overall passing percentage (dropped from 90 to 87).
 
 <p align="center">  
 <kbd>
@@ -145,15 +163,19 @@ In this summary, only results from Thomas High School were impacted by NaNs, oth
 </kbd>
 </p>
 
+<p align="center">
+Data Frame from analysis School performance based on the type of school. before and after replacement grades with NaNs. 
+</p
+
 ### Overview of the methods and code
-Python’s Library **Pandas** are very flexible and easy to manipulate. There are lots of information about Pandas on the web, [Pandas User Guide - official documentation](https://pandas.pydata.org/docs/user_guide/index.html#user-guide), for example. Yet on the link below, I have included some of the Pandas commands that I used in this analysis.
+Python’s Library **Pandas** are very flexible and easy to manipulate. There are a lot of information about Pandas on the web for example, [Pandas User Guide - official documentation](https://pandas.pydata.org/docs/user_guide/index.html#user-guide) where we can find how specifinc commands works. Yet on the link below, I have included Pandas commands that I used in this analysis.
 
 [Pandas Cheat Sheet](Results/PandasCheatSheet.pdf)
 
 ## Summary 
 Since Thomas High School math and reading grades for 9th graders were replaced with NaNs, there are some major changes in the report. 
-1. The biggest change is on the math and reading scores for  9th graders itself. No data is available for those. 
-2. The second largest change is the school summary, for Thomas High School specifically. Overall passing percentage went from 91% to 65%, Passing math and reading percentage went from 93% and 97% to 67% and 70% respectively. Since the calculations were made per school specifically no other schools’ results were affected by grade replacement.
+1. The biggest change is on the math and reading scores for 9th graders itself. No data is available for those and instead of numeric values we can see NaN. 
+2. The second largest change is in the school summary, for Thomas High School specifically. Overall passing percentage went from 91% to 65%, Passing math and reading percentage went from 93% and 97% to 67% and 70% respectively. Since the calculations were made per school specifically no other schools’ results were affected by grade replacement.
 3. Next, the overall passing percentage went from 65% to 64% after the grades were replaced by NaNs.
 4. There were some changes in school summaries by spending per student, size, and type. Again, only categories that include Thomas High School were affected. Categories that were affected are: *Spending Ranges (Per Student) $630-644*, *Medium size schools (1000-2000) students* and *The Charter schools*.
 
