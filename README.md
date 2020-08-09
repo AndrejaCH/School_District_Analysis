@@ -81,8 +81,8 @@ Data Frame from analysis The district summary before and after replacement grade
 
 
 **2. The average math and reading scores for each grade level from each school.**
-    - In this report, only grades from Thomas High school in 9th grade was affected for math and reading.
-    - Calculations in this analysis are performed separately for each class and each school; therefore, other graders and schools weren’t affected.
+   - In this report, only grades from Thomas High school in 9th grade was affected for math and reading. 
+   - Calculations in this analysis are performed separately for each class and each school; therefore, other graders and schools weren’t affected.  
     
 <p align="center"> 
 <kbd>    
@@ -98,7 +98,7 @@ Data Frame from analysis The average math and reading scores for each grade leve
 
    - In this summary, only results from Thomas High School were affected by NaNs, other schools' results remained unchanged.
    - Average math and reading scores remained unchanged.
-   - Passing math and reading percentage (dropped from 93 and 97 to 67 to 70 respecitvely).
+   - Passing math and reading percentage (dropped from 93 and 97 to 67 and 70 respecitvely).
    - Overall passing percentage (dropped from 91 to 65).
   
 <p align="center">
@@ -111,10 +111,11 @@ Data Frame from analysis The average math and reading scores for each grade leve
 Data Frame from analysis The School Summary for Thomas High School before and after replacement grades with NaNs. 
 </p>
 
-   - Other schools' results remained unchanged. In the link we can see full report from all schools. [The School Summary Before NaNs](Results/TheSchoolSummaryBeforeNaNs.pdf) and [The School Summary After NaNs](Results/TheSchoolSummaryAfterNaNs.pdf).
+   - Other schools' results remained unchanged. In the link we can see full report from all schools -  [The School Summary Before NaNs](Results/TheSchoolSummaryBeforeNaNs.pdf) and [The School Summary After NaNs](Results/TheSchoolSummaryAfterNaNs.pdf).
 
 **4. The top 5 and bottom 5 performing schools, based on the overall passing rate.**
-  - The overall rating for Thomas High School changed from 91% to 65% so the school rank dropped from 2nd place to 8th place after changing scores with NaNs.
+  - The overall rating for Thomas High School changed from 91% to 65%.
+  - The school rank dropped from 2nd place to 8th place after changing scores with NaNs.
 
 **5. School performance based on the budget per student.**
   - From the Data Frame above (The School Summary) we can see that Thomas High school falls into a category *spending range per students $630-$644*. 
@@ -137,7 +138,7 @@ Data Frame from analysis School performance based on the budget per student befo
   - From the Data Frame above (The School Summary) we can see that Thomas High school falls into a category *medium size school (1000 - 2000 students)*. 
   - Calculations are made separately for those categories; therefore, scores in this summary are affected only within a category with NaNs. 
   - Average math and reading scores remained unchanged.
-  - Passing math and reading percentage (dropped from 94 and 97 to 88 to 91 respecitvely).
+  - Passing math and reading percentage (dropped from 94 and 97 to 88 and 91 respecitvely).
   - Overall passing percentage (dropped from 91 to 85).
 
 <p align="center">
@@ -154,7 +155,7 @@ Data Frame from analysis School performance based on the school size before and 
   - From the Data Frame above (The School Summary) we can see that Thomas High school falls into a category *Charter* for school type. 
   - Calculations are made separately for those categories; therefore, scores in this summary are affected only within a category with NaNs. 
   - Average math and reading scores remained unchanged.
-  - Passing math and reading percentage (dropped from 94 and 97 to 90 to 93 respecitvely).
+  - Passing math and reading percentage (dropped from 94 and 97 to 90 and 93 respecitvely).
   - Overall passing percentage (dropped from 90 to 87).
 
 <p align="center">  
@@ -167,7 +168,9 @@ Data Frame from analysis School performance based on the school size before and 
 Data Frame from analysis School performance based on the type of school. before and after replacement grades with NaNs. 
 </p
 
+
 ### Overview of the methods and code
+
 Python’s Library **Pandas** are very flexible and easy to manipulate. There are a lot of information about Pandas on the web for example, [Pandas User Guide - official documentation](https://pandas.pydata.org/docs/user_guide/index.html#user-guide) where we can find how specifinc commands works. Yet on the link below, I have included Pandas commands that I used in this analysis.
 
 [Pandas Cheat Sheet](Results/PandasCheatSheet.pdf)
