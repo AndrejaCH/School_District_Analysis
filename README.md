@@ -190,6 +190,6 @@ Module 4: PyCitySchools: Handle Missing Data: https://courses.bootcampspot.com/c
 
 - [Pandas User Guide](https://pandas.pydata.org/docs/user_guide/index.html#user-guide)
 
-- [export CSV from Pandas](https://towardsdatascience.com/how-to-export-pandas-dataframe-to-csv-2038e43d9c03)
+- [Export CSV from Pandas](https://towardsdatascience.com/how-to-export-pandas-dataframe-to-csv-2038e43d9c03)
 
-- [determing your current environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+- [Determing your current environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
