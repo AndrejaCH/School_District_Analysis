@@ -60,7 +60,6 @@ NaN stands for “not a number”. In performing calculations, unlike 0 (zero) N
 <img src="Results/TheInfo.PNG" width="30%" height="30%">  
 </p>
 
-### Analysis
 **1. The district summary**
    - In this summary, almost all results were impacted by NaNs. Data from Thomas High School 9th grade were included in the following calculations.
    - Average math and reading score (dropped from 79.0 and 81.9 to 78.9 and 81.9, respectively).
